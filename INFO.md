@@ -1,11 +1,12 @@
 # Transparent Blue
 A transparent blue theme for Home Assistant 
 > This is my first ever custom theme for Home Assistant and my first ever GitHub/HACS repository. 
-Nod to: https://github.com/naofireblade/clear-theme-dark for inspiring me to dive into this.
+Nod to: https://github.com/naofireblade/clear-theme-dark 
+for inspiring me to dive into this.
 
 ### Screenshots
 **Main** (masked for privacy)
-![1](https://github.com/JOHLC/transparentblue/blob/main/images/screenshots/sc1.jpg?raw=true)
+![1](https://github.com/JOHLC/transparentblue/blob/main/images/screenshots/screenshot1.jpg?raw=true)
 
 **Included BG image**
 ![2](https://github.com/JOHLC/transparentblue/blob/main/images/transparentblue-1.jpg?raw=true)
