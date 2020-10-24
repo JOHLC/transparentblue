@@ -2,32 +2,22 @@
 #
 # Transparent Blue theme
 #
-transparentblue-dev:
+transparentblue:
   # Background image
   lovelace-background: 'center / cover no-repeat url("https://github.com/JOHLC/transparentblue/blob/dev/images/transparentblue-1.jpg?raw=true")' 
-
   # Colors
   main-color: 'rgba(7,7,75, 0.80)'      #Main color
   side-bar-selected: 'blue'
-  
   active-color: 'yellow'      #Color of active/on entities in cards
   text-color: '#F0F8FF'
   text-medium-light-color: 'white'
-  
   text-medium-color: '#FFFFFF'
-  
   text-dark-color: '#FFFFFF'
-  
-  accent-color: 'var(--main-color)'
-  
+  accent-color: ''
   accent-medium-color: '#FFFFFF'
-  
   background-color: 'black'
-  
   background-color-2: '#000000'
-  
   background-card-color: 'var(--main-color)'
-  
   border-color: 'transparent'
 
   # Header
