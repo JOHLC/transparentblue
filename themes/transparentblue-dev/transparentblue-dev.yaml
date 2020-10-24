@@ -5,7 +5,7 @@
 transparentblue:
   # Background image
   #stretch lovelace-background: 'center / cover no-repeat url("https://raw.githubusercontent.com/JOHLC/transparentblue/main/images/transparentblue-1.jpg")' 
-  tile lovelace-background: 'url("https://user-images.githubusercontent.com/63735432/97091590-e73dc080-160a-11eb-9628-c8aafbee8744.jpg")' 
+  lovelace-background: 'url("https://user-images.githubusercontent.com/63735432/97091590-e73dc080-160a-11eb-9628-c8aafbee8744.jpg")' 
   # Colors
   main-color: 'rgba(7,7,75, 0.80)'      #Main color
   side-bar-selected: 'blue'
