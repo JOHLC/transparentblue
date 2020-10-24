@@ -1,4 +1,7 @@
-  
+---
+#
+# Transparent Blue theme
+#
 transparentblue-dev:
   # Background image
   lovelace-background: 'center / cover no-repeat url("https://github.com/JOHLC/transparentblue/blob/dev/images/transparentblue-1.jpg?raw=true")' 
