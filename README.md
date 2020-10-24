@@ -10,10 +10,7 @@
 **Included BG image**
 ![2](https://github.com/JOHLC/transparentblue/blob/main/images/transparentblue-1.jpg?raw=true)
 
-## Installation
-To be completed
-
-### HACS installation
+### HACS installation - recommended 
 1. Open HACS
 2. Select "Frontend"
 3. Select the ... menu button at the top right
@@ -24,5 +21,10 @@ To be completed
 8. Close this menu
 9. "Transparent Blue" should now show up as a new repository
 10. Click "INSTALL" then install again on the pop-up
+
+## Manual Installation - not recommended 
+1. Download the transparentblue.yaml file from the latest release
+2. Upload the downloaded file to your "themes" directory
+3. Add the resource reference to your lovelace config
 
 You should now be able to select this theme in Home Assistant
