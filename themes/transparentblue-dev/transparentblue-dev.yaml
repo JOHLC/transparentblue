@@ -1,7 +1,7 @@
   
 transparentblue-dev:
   # Background image
-  lovelace-background: 'center / cover no-repeat url("https://github.com/JOHLC/transparentblue/blob/dev/images/transparentblue-1.jpg")' 
+  lovelace-background: 'center / cover no-repeat url("https://github.com/JOHLC/transparentblue/blob/dev/images/transparentblue-1.jpg?raw=true")' 
 
   # Colors
   main-color: 'rgba(7,7,75, 0.80)'      #Main color
