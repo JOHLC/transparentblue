@@ -26,7 +26,7 @@ transparentblue:
   app-header-background-color: 'var(--main-color)'                                          # Header
   
   # Text
-  primary-color: 'var(--text-color)'
+  primary-color: ''
   text-primary-color: 'var(--text-color)'
 
   # Left Menu
