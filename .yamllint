@@ -1,7 +1,7 @@
 ---
 
 yaml-files:
-  - "themes/transparentblue/transparentblue.yaml"
+  - "themes/transparentblue.yaml"
 
 rules:
   braces:
