@@ -8,12 +8,13 @@ Nod to: https://github.com/naofireblade/clear-theme-dark 
 for inspiring me to dive into this.
 
 ### Screenshots
-**Main** (masked for privacy)
-<img src="https://github.com/JOHLC/transparentblue/raw/main/images/screenshots/sc1.jpg?raw=true" alt="Screenshot 1" width="auto" height="500">
+**Main**
+
+<img src="https://github.com/JOHLC/transparentblue/raw/main/images/screenshots/screenshot1.jpg" alt="Screenshot 1" width="1000">
 
 **Included BG image**
 
-<img src="https://github.com/JOHLC/transparentblue/blob/main/images/transparentblue-blur.jpg?raw=true" alt="Screenshot 1" width="auto" height="500">
+<img src="https://github.com/JOHLC/transparentblue/blob/main/images/backgroundblur.jpg?raw=true" alt="Screenshot 1" width="800">
 
 ## HACS installation - recommended 
 1. Open HACS
@@ -34,4 +35,4 @@ for inspiring me to dive into this.
 
 You should now be able to select this theme in Home Assistant
 
-#### NOTE: If you have slow network/bandwidth, it may be better to download the background image to your www direcotry and change the lovelace-background: in transparentblue.yaml to reference that instead. You could also use the lower quality image: https://raw.githubusercontent.com/JOHLC/transparentblue/main/images/transparentblue-blur.jpg.
+### NOTE: If you have slow network/bandwidth, it may be better to download the background image to your www direcotry and change the lovelace-background: in transparentblue.yaml to reference that instead. You could also use the lower quality image: https://raw.githubusercontent.com/JOHLC/transparentblue/main/images/transparentblue-blur.jpg.
