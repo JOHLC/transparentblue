@@ -6,10 +6,10 @@ for inspiring me to dive into this.
 
 ### Screenshots
 **Main** (masked for privacy)
-![1](https://github.com/JOHLC/transparentblue/blob/main/images/screenshots/screenshot2.jpg?raw=true)
+![1](https://github.com/JOHLC/transparentblue/blob/main/images/screenshots/sc1.jpg?raw=true)
 
 **Included BG image**
-![2](https://github.com/JOHLC/transparentblue/blob/main/images/transparentblue-1.jpg?raw=true)
+![2](https://github.com/JOHLC/transparentblue/blob/main/images/transparentblue-blur.jpg?raw=true)
 
 ## HACS installation - recommended 
 1. Open HACS
