@@ -8,8 +8,8 @@ Nod to: https://github.com/naofireblade/clear-theme-dark 
 for inspiring me to dive into this.
 
 ### Screenshots
-**Main** (masked for privacy)
-<img src="https://github.com/JOHLC/transparentblue/raw/main/images/screenshots/screenshot1.webp?raw=true" alt="Screenshot 1" width="auto" height="500">
+**Main**
+<img src="https://github.com/JOHLC/transparentblue/raw/main/images/screenshots/screenshot1.jpg" alt="Screenshot 1" width="auto" height="500">
 
 **Included BG image**
 
