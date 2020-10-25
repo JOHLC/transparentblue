@@ -33,3 +33,4 @@ for inspiring me to dive into this.
 3. Add the resource reference to your lovelace config
 
 You should now be able to select this theme in Home Assistant
+This is a test
