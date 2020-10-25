@@ -83,3 +83,5 @@ transparentblue:
   hacs-status-pending-update: 'var(--accent-color)'                               # Update Icon
   
   mdc-theme-surface: 'rgba(7,7,75, 0.80)' 
+  
+  ha-card-border-radius: '6px'
