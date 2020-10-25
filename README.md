@@ -9,7 +9,7 @@ for inspiring me to dive into this.
 
 ### Screenshots
 **Main** (masked for privacy)
-<img src="https://github.com/JOHLC/transparentblue/raw/main/images/screenshots/sc1.jpg?raw=true" alt="Screenshot 1" width="auto" height="500">
+<img src="https://github.com/JOHLC/transparentblue/raw/main/images/screenshots/screenshot1.webp?raw=true" alt="Screenshot 1" width="auto" height="500">
 
 **Included BG image**
 
