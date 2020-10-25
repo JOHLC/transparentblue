@@ -4,11 +4,10 @@
 #
 transparentblue:
   # Background image
-  # lovelace-background: 'url("https://johlc.github.io/assets/background.jpg")' 
-  lovelace-background: 'center / cover no-repeat url("https://github.com/JOHLC/transparentblue/blob/main/images/transparentblue-1.jpg?raw=true")' 
+  lovelace-background: 'center / cover url("https://ha.jtprivate.com:9095/local/blur.jpg")' 
   
   # Colors
-  main-color: 'rgba(7,7,75, 0.80)'      #Main color
+  main-color: 'rgba(7,7,75, 0.50)'      #Main color
   side-bar-selected: 'blue'
   active-color: 'yellow'      #Color of active/on entities in cards
   text-color: '#F0F8FF'
@@ -30,14 +29,14 @@ transparentblue:
   text-primary-color: 'var(--text-color)'
 
   # Left Menu
-  paper-listbox-background-color: 'var(--background-color)'                       # Background
+  paper-listbox-background-color: 'rgba(7,7,75, 1)'                       # Background
   sidebar-icon-color: 'var(--text-medium-color)'                                  # icons
   sidebar-selected-icon-color: 'var(--side-bar-selected)'                   # Selected row icon and background (15%)
   sidebar-selected-text-color: 'var(--text-color)'                                # Selected row label
 
   # UI
   paper-card-header-color: 'var(--text-color)'                                    # Title in settings
-  primary-background-color: 'rgba(3, 3, 28, .5)'                             # Background (also title background in left menu)
+  primary-background-color: 'rgba(3, 3, 28, .75)'                             # Background (also title background in left menu)
   mdc-theme-primary: '#ADADAD'                                 # Action Buttons (save, restart etc.)
   card-background-color: 'var(--background-card-color)'                           # Entity Registry Background
 
@@ -83,3 +82,4 @@ transparentblue:
   hacs-status-pending-restart: 'var(--text-dark-color)'                           # Restart Icon
   hacs-status-pending-update: 'var(--accent-color)'                               # Update Icon
   
+  mdc-theme-surface: 'rgba(7,7,75, 0.80)' 
