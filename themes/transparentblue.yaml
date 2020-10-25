@@ -4,7 +4,7 @@
 #
 transparentblue:
   # Background image
-  lovelace-background: 'center / cover url("https://ha.jtprivate.com:9095/local/blur.jpg")' 
+  lovelace-background: 'center / cover url("https://github.com/JOHLC/transparentblue/blob/main/images/transparentblue-blur.jpg")' 
   
   # Colors
   main-color: 'rgba(7,7,75, 0.50)'      #Main color
