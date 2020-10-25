@@ -33,3 +33,5 @@ for inspiring me to dive into this.
 3. Add the resource reference to your lovelace config
 
 You should now be able to select this theme in Home Assistant
+
+#### NOTE: If you have slow network/bandwidth, it may be better to download the background image to your www direcotry and change the lovelace-background: in transparentblue.yaml to reference that instead. You could also use the lower quality image: https://raw.githubusercontent.com/JOHLC/transparentblue/main/images/transparentblue-blur.jpg.
