@@ -7,7 +7,7 @@ transparentblue:
 #################################################################################
 # Background image                                                              #
 #################################################################################
-  lovelace-background: 'center / cover no-repeat url("https://raw.githubusercontent.com/JOHLC/transparentblue/main/images/backgroundblur.jpg")' 
+  lovelace-background: 'center url("https://raw.githubusercontent.com/JOHLC/transparentblue/main/images/backgroundblur.jpg")' 
   #For lower quality or slower connections, uncomment below and comment above
   #lovelace-background: 'center / cover no-repeat url("https://raw.githubusercontent.com/JOHLC/transparentblue/main/images/transparentblue-blur.jpg")' 
 #################################################################################  
@@ -40,11 +40,11 @@ transparentblue:
   text-primary-color: 'var(--text-color)'                        #Primary text color
 
   #Left flyout menu
-  paper-listbox-background-color: ''
+  paper-listbox-background-color: 'var(--dark-blue)'
   sidebar-icon-color: 'var(--icon-color)'                        #Side menu icon color
   sidebar-selected-icon-color: 'blue'                            #Currently selected sidebar item icon color
   sidebar-selected-text-color: 'var(--text-color)'               #Currently selected sidebar item text color
-  sidebar-background-color: 'rgba(7,7,75, 0.0)'                  #Background color of side menu
+  sidebar-background-color: ''                                   #Background color of side menu
   
   #UI / globals
   paper-card-header-color: ''                                    #Not sure what this is just yet
