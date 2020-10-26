@@ -44,7 +44,7 @@ transparentblue:
   sidebar-icon-color: 'var(--icon-color)'                        #Side menu icon color
   sidebar-selected-icon-color: 'blue'                            #Currently selected sidebar item icon color
   sidebar-selected-text-color: 'var(--text-color)'               #Currently selected sidebar item text color
-  sidebar-background-color: ''                                   #Background color of side menu
+  sidebar-background-color: 'var(--dark-blue)'                   #Background color of side menu
   
   #UI / globals
   paper-card-header-color: ''                                    #Not sure what this is just yet
