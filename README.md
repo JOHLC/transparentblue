@@ -35,4 +35,9 @@ for inspiring me to dive into this.
 
 You should now be able to select this theme in Home Assistant
 
-#### NOTE: If you have slow network/bandwidth, it may be better to download the background image to your www direcotry and change the lovelace-background: in transparentblue.yaml to reference that instead. You could also use the lower quality image: https://raw.githubusercontent.com/JOHLC/transparentblue/main/images/transparentblue-blur.jpg.
+> Note: If you have slow network, it may be better to download the background image to your www direcotry and change the lovelace-background: in transparentblue.yaml to reference that instead. You could also use the lower quality image: https://raw.githubusercontent.com/JOHLC/transparentblue/main/images/transparentblue-blur.jpg.
+
+
+If you enjoy this theme please consider a small donation
+
+[![Donate](https://img.shields.io/badge/Donate-PayPal-green.svg)](https://www.paypal.com/cgi-bin/webscr?cmd=_donations&business=KYLBZZP9WCJYE&currency_code=USD)
