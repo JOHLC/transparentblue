@@ -10,10 +10,10 @@ for inspiring me to dive into this.
 ### Screenshots
 **Main**
 
-<img src="https://github.com/JOHLC/transparentblue/raw/main/images/screenshots/latestsc1.png" alt="Screenshot 1" width="1000">
+<img src="https://raw.githubusercontent.com/JOHLC/transparentblue/dev/images/latestsc1.png" alt="Screenshot 1" width="1000">
 **Sidebar**
 
-<img src="https://github.com/JOHLC/transparentblue/raw/main/images/screenshots/latestsc2.png" alt="Screenshot 1" width="1000">
+<img src="https://raw.githubusercontent.com/JOHLC/transparentblue/dev/images/latestsc1.png" alt="Screenshot 2" width="1000">
 
 **Included BG image**
 
