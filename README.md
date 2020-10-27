@@ -39,6 +39,7 @@ You should now be able to select this theme in Home Assistant
 
 #### Beta versions
 From time to time I will be releasing beta versions. This is mainly for personal testing before merging dev branch changes. If you are using HACS you can enable / disable these beta versions by changing the setting "Show beta versions" 
+
 <img src="https://github.com/JOHLC/transparentblue/blob/main/images/hacsbeta.png?raw=true" alt="hacs beta" >
 
 
