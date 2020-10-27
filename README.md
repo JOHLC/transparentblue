@@ -2,7 +2,7 @@
 <img alt="GitHub Release Date" src="https://img.shields.io/github/release-date/johlc/transparentblue"> ![GitHub release (latest by date)](https://img.shields.io/github/v/release/johlc/transparentblue?label=Version&style=flat-square&labelColor=2ea9f4&color=1473ae)
  ![maintained](https://img.shields.io/maintenance/yes/2020.svg?style=flat-square&labelColor=2ea9f4&color=1473ae) ![GitHub All Releases](https://img.shields.io/github/downloads/johlc/transparentblue/total?&label=Total%20Downloads&style=flat-square&labelColor=2ea9f4&color=1473ae) ![.github/workflows/validate.yaml](https://github.com/JOHLC/transparentblue/workflows/.github/workflows/validate.yaml/badge.svg)
   
-A transparent blue theme for Home Assistant 
+## A transparent blue theme for Home Assistant 
 > This is my first ever custom theme for Home Assistant and my first ever GitHub/HACS repository. 
 Nod to: https://github.com/naofireblade/clear-theme-dark 
 for inspiring me to dive into this.
@@ -35,6 +35,14 @@ for inspiring me to dive into this.
 
 You should now be able to select this theme in Home Assistant
 
-#### If you enjoy this theme please consider a small donation
+
+
+#### Beta versions
+From time to time I will be releasing beta versions. This is mainly for personal testing before merging dev branch changes. If you are using HACS you can enable / disable these beta versions by changing the setting "Show beta versions" 
+<img src="https://github.com/JOHLC/transparentblue/blob/main/images/hacsbeta.png?raw=true" alt="hacs beta" >
+
+
+
+#### If you enjoy this theme please consider a small donation - I would be forever grateful 
 
 [![Donate](https://img.shields.io/badge/Donate-PayPal-green.svg)](https://www.paypal.com/cgi-bin/webscr?cmd=_donations&business=KYLBZZP9WCJYE&currency_code=USD)
