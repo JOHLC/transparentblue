@@ -8,10 +8,10 @@ Nod to: https://github.com/naofireblade/clear-theme-dark 
 for inspiring me to dive into this.
 
 ### Screenshots
-**Main**
+*Main
 
 <img src="https://raw.githubusercontent.com/JOHLC/transparentblue/dev/images/latestsc1.png" alt="Screenshot 1" width="1000">
-**Sidebar**
+*Sidebar
 
 <img src="https://raw.githubusercontent.com/JOHLC/transparentblue/dev/images/latestsc2.png" alt="Screenshot 2" width="1000">
 
@@ -38,6 +38,15 @@ for inspiring me to dive into this.
 
 You should now be able to select this theme in Home Assistant
 
-#### If you enjoy this theme please consider a small donation
+
+
+#### Beta versions
+From time to time I will be releasing beta versions. This is mainly for personal testing before merging dev branch changes. If you are using HACS you can enable / disable these beta versions by changing the setting "Show beta versions" 
+
+<img src="https://github.com/JOHLC/transparentblue/blob/main/images/hacsbeta.png?raw=true" alt="hacs beta" >
+
+
+
+#### If you enjoy this theme please consider a small donation - I would be forever grateful 
 
 [![Donate](https://img.shields.io/badge/Donate-PayPal-green.svg)](https://www.paypal.com/cgi-bin/webscr?cmd=_donations&business=KYLBZZP9WCJYE&currency_code=USD)
