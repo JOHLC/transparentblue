@@ -111,3 +111,4 @@ transparentblue:
   
   #Others
   mdc-theme-surface: 'var(--dark-blue)'                          #Not sure
+#  mdc-theme-secondary: '#018786'                                 #Not sure
