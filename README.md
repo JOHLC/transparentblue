@@ -7,18 +7,16 @@
 Nod to: https://github.com/naofireblade/clear-theme-dark for inspiring me to dive into this.
 
 ### Screenshots
-*Main
-
+*Main<br />
 <img src="https://raw.githubusercontent.com/JOHLC/transparentblue/dev/images/latestsc1.png" alt="Screenshot 1" width="1000">
-*Sidebar
 
+*Sidebar<br />
 <img src="https://raw.githubusercontent.com/JOHLC/transparentblue/dev/images/latestsc2.png" alt="Screenshot 2" width="1000">
 
-**Included BG image**
-
+**Included BG image**<br />
 <img src="https://github.com/JOHLC/transparentblue/blob/main/images/backgroundblur.jpg?raw=true" alt="Screenshot 1" width="800">
 
-## HACS installation - recommended 
+## HACS installation - recommended<br /> 
 1. Open HACS
 2. Select "Frontend"
 3. Select the ... menu button at the top right
@@ -30,22 +28,20 @@ Nod to: https://github.com/naofireblade/clear-theme-dark for inspiring me to di
 9. "Transparent Blue" should now show up as a new repository
 10. Click "INSTALL" then install again on the pop-up
 
-### Manual Installation - not recommended 
+### Manual Installation - not recommended<br /> 
 1. Download the transparentblue.yaml file from the latest release
 2. Upload the downloaded file to your "themes" directory
 3. Add the resource reference to your lovelace config
 
 You should now be able to select this theme in Home Assistant
 
-
+<br />
 
 #### Beta versions
-From time to time I will be releasing beta versions. This is mainly for personal testing before merging dev branch changes. If you are using HACS you can enable / disable these beta versions by changing the setting "Show beta versions" 
+From time to time I will be releasing beta versions. This is mainly for personal testing before merging dev branch changes. If you are using HACS you can enable / disable these beta versions by changing the setting "Show beta versions"<br /> 
 
 <img src="https://github.com/JOHLC/transparentblue/blob/main/images/hacsbeta.png?raw=true" alt="hacs beta" >
+<br />
 
-
-
-#### If you enjoy this theme please consider a small donation - I would be forever grateful 
-
+#### If you enjoy this theme please consider a small donation - I would be forever grateful<br /> 
 [![Donate](https://img.shields.io/badge/Donate-PayPal-green.svg)](https://www.paypal.com/cgi-bin/webscr?cmd=_donations&business=KYLBZZP9WCJYE&currency_code=USD)
