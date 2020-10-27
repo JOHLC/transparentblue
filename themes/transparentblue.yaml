@@ -23,7 +23,8 @@ transparentblue:
   background-color: 'var(--main-color)'
   background-card-color: 'var(--main-color)'
   border-color: 'transparent'
-  icon-color: 'white'
+  icon-color: 'white'                                         #Icon color
+  #state-icon-color: ''                                       #Icon color - state at least in ENTITY card - stock was #44739e / not set
   
 #################################################################################
 # Coloring                                                                      #
