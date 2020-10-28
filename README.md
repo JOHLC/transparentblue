@@ -42,6 +42,3 @@ From time to time I will be releasing beta versions. This is mainly for personal
 
 <img src="https://github.com/JOHLC/transparentblue/blob/main/images/hacsbeta.png?raw=true" alt="hacs beta" >
 <br />
-
-#### If you enjoy this theme please consider a small donation - I would be forever grateful<br /> 
-[![Donate](https://img.shields.io/badge/Donate-PayPal-green.svg)](https://www.paypal.com/cgi-bin/webscr?cmd=_donations&business=KYLBZZP9WCJYE&currency_code=USD)
