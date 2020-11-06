@@ -33,7 +33,7 @@ transparentblue:
   code-editor-background-color: 'rgba(25,25,25, 1)'              #Background color of developer tools code backdrops
   table-row-alternative-background-color: 'var(--dark-blue)'     #Used in at least Developer tools for alternating entites background color
   table-row-background-color: 'rgba(25,25,25, 1)'                #Used in at least Developer tools for alternating entites background color
-  paper-dialog-background-color: ''                              #Line numbers next to code backdrops at least
+  paper-dialog-background-color: 'var(--dark-blue)'              #Line numbers next to code backdrops at least
   
   #Header
   app-header-background-color: 'rgba(7,7,50, 0.45)'
@@ -41,6 +41,7 @@ transparentblue:
   #Text
   primary-color: ''                                              #Do not set, this ensures colors are readable in places like logbook, dev tools, etc. 
   text-primary-color: 'var(--text-color)'                        #Primary text color
+  paper-font-body1_-_font-weight: '450'
 
   #Left flyout menu                                              #I suggest you set the "Always hide the sidebar" option to ON
   paper-listbox-background-color: 'var(--dark-blue)'
