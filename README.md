@@ -35,6 +35,24 @@ You should now be able to select this theme in Home Assistant
 
 <br />
 
+#### Changing the background image<br />
+This theme uses a base64 encoded image. I use [this](https://www.base64-image.de/) website to encode my images. <br /> 
+To change the background of this theme, change the following in the .yaml file:
+
+````
+lovelace-background: 'center / cover no-repeat fixed url()'
+````
+
+In between the brackets in the url() section, add your own base64 string. Example: url('data:image/png;base64,YOURLONGSTRING)<br /> 
+<br /> 
+You can also add a local image stored in your config/www directory or a publicly accessible image url like so
+
+````
+lovelace-background: 'center / cover no-repeat fixed url("/local/background.png")' 
+# OR
+# lovelace-background: 'center / cover no-repeat fixed url("http://www.reportingday.com/wp-content/uploads/2018/06/Cat-Sleeping-Pics.jpg")' 
+````
+
 #### Beta versions
 From time to time I will be releasing beta versions. This is mainly for personal testing before merging dev branch changes. If you are using HACS you can enable / disable these beta versions by changing the setting "Show beta versions"<br /> 
 
