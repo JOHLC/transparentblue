@@ -9,10 +9,10 @@ Nod to: https://github.com/naofireblade/clear-theme-dark for inspiring me to di
 
 ### Screenshots
 **Main**<br />
-<img src="https://raw.githubusercontent.com/JOHLC/transparentblue/main/images/sc1.png" alt="Screenshot 1" width="1000">
+<img src="https://raw.githubusercontent.com/JOHLC/transparentblue/main/images/sc1.jpg" alt="Screenshot 1" width="1000">
 
 **Sidebar**<br />
-<img src="https://raw.githubusercontent.com/JOHLC/transparentblue/main/images/sidebar1.png" alt="Screenshot 1" width="1000">
+<img src="https://raw.githubusercontent.com/JOHLC/transparentblue/main/images/sidebar1.jpg" alt="Screenshot 1" width="1000">
 
 **Included BG image**<br />
 <img src="https://github.com/JOHLC/transparentblue/blob/main/images/background.jpg?raw=true" alt="Screenshot 1" width="800">
