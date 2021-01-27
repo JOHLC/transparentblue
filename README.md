@@ -14,6 +14,7 @@ Nod to: https://github.com/naofireblade/clear-theme-dark for inspiring me to di
 **Sidebar**<br />
 <img src="https://raw.githubusercontent.com/JOHLC/transparentblue/main/images/sidebar1.jpg" alt="Screenshot 1" width="1000">
 
+<!-- replace screenshot --> 
 **Included BG image**<br />
 <img src="https://github.com/JOHLC/transparentblue/blob/main/images/background.jpg?raw=true" alt="Screenshot 1" width="800">
 
