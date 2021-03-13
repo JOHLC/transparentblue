@@ -1,7 +1,7 @@
 # Transparent Blue
 [![hacs_badge](https://img.shields.io/badge/HACS-Default-orange.svg)](https://github.com/custom-components/hacs)
 <img alt="GitHub Release Date" src="https://img.shields.io/github/release-date/johlc/transparentblue"> ![GitHub release (latest by date)](https://img.shields.io/github/v/release/johlc/transparentblue?label=Version&style=flat-square&labelColor=2ea9f4&color=1473ae)
- ![maintained](https://img.shields.io/maintenance/yes/2020.svg?style=flat-square&labelColor=2ea9f4&color=1473ae) ![GitHub All Releases](https://img.shields.io/github/downloads/johlc/transparentblue/total?&label=Total%20Downloads&style=flat-square&labelColor=2ea9f4&color=1473ae) ![.github/workflows/validate.yaml](https://github.com/JOHLC/transparentblue/workflows/.github/workflows/validate.yaml/badge.svg)
+![GitHub All Releases](https://img.shields.io/github/downloads/johlc/transparentblue/total?&label=Total%20Downloads&style=flat-square&labelColor=2ea9f4&color=1473ae) ![.github/workflows/validate.yaml](https://github.com/JOHLC/transparentblue/workflows/.github/workflows/validate.yaml/badge.svg)
 
 ## A transparent blue theme for Home Assistant 
 This is a theme I created for Home Assistant called Transparent Blue. This is/was my first ever custom theme for Home Assistant and my first ever GitHub/HACS repository.<br />
