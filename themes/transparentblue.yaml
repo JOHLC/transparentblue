@@ -14,7 +14,7 @@ transparentblue:
   prefers-color-scheme: dark
   main-color: 'rgba(7,7,50, 0.3)'                             #Main color
   dark-blue: 'rgba(3,3,30, 0.90)'                             #Dark blue for backgrounds of certain elements
-  dark-color: 'rgba(3,3,30, 0.85)'                            #test
+  dark-color: 'rgba(3,3,30, 1)'                               #test
   active-color: 'yellow'                                      #Color of active/on entities in cards
   text-color: 'white'                                         #Duh
   slightly-darker-text: 'rgb(200 200 200)'
@@ -36,7 +36,7 @@ transparentblue:
   paper-dialog-background-color: 'var(--dark-blue)'              #Line numbers next to code backdrops at least
   
   #Header
-  app-header-background-color: 'rgba(3,3,50, 0.75)'              #Lovelace headers
+  app-header-background-color: 'rgba(7,7,50, 1)'              #Lovelace headers
   
   #Text
   primary-color: ''                                              #Do not set, this ensures colors are readable in places like logbook, dev tools, etc. 
