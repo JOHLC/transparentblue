@@ -16,14 +16,12 @@ transparentblue:
   text-color: 'white'                                         #Duh
   slightly-darker-text: 'rgb(200 200 200)'
   text-dark-color: '#A0A0A0'                                  
-  
-  ## ! TESTING ###
-  accent-color: '#ffd000'                                    #Bright yellow instead of orange - leaving this empty looks fine as well (off-orange color)
-  
+  accent-color: '#ffd000'                                     #Bright yellow instead of orange - leaving this empty looks fine as well (off-orange color)
   accent-medium-color: '#FFFFFF'
   background-card-color: 'var(--main-color)'
   border-color: 'transparent'
-  icon-color: 'rgb(254 254 254)'
+  #icon-color: 'rgb(254 254 254)'
+  icon-color: 'var(--text-color)'
   state-icon-color: '#00aeff'                                 #Icon color at least on Entity (not entities) cards 
 #################################################################################
 # Coloring                                                                      #
@@ -49,6 +47,7 @@ transparentblue:
   
   
   #Left flyout menu                                              #I suggest you set the "Always hide the sidebar" option to ON
+  #app-drawer-width: '0px'
   paper-listbox-background-color: 'var(--dark-blue)'
   sidebar-icon-color: 'var(--icon-color)'                        #Side menu icon color
   sidebar-selected-icon-color: 'white'                           #Currently selected sidebar item icon color
@@ -60,21 +59,10 @@ transparentblue:
   
   #UI / globals
   paper-card-header-color: ''                                    #Not sure what this is just yet
-  
-  ## ! TESTING ! ##
   primary-background-color: 'var(--dark-color)'                  #Background color in several locations (Supervisor, app drawer, dev tools, configuration, logbook, history, media browser, notifications, app config)
-  ## ! TESTING ! ##
-  
   mdc-theme-primary: '#FCFCFC'                                   #Color for buttons, yaml config reloading, update, alarm control buttons, etc, 
-  
-  
-  
-  ## ! TESTING ! ##
   ha-card-background: 'var(--main-color)'                        #Most lovelace card background colors
   card-background-color: 'var(--main-color-not-tp)'              #Card backgrounds and element backgrounds in other config pages as well as the History datetime picker
-  ## ! TESTING ! ##
-  
-  
   mdc-theme-on-primary: 'var(--dark-blue)'                       #Text in buttons like restart, call service, etc
   material-background-color: 'var(--dark-blue)'                  #Background for at least service/entity selection in automations, im sure its used elsewhere...
   
