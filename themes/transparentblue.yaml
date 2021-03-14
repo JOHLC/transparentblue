@@ -49,7 +49,6 @@ transparentblue:
   
   
   #Left flyout menu                                              #I suggest you set the "Always hide the sidebar" option to ON
-  app-drawer-width: '0px'
   paper-listbox-background-color: 'var(--dark-blue)'
   sidebar-icon-color: 'var(--icon-color)'                        #Side menu icon color
   sidebar-selected-icon-color: 'white'                           #Currently selected sidebar item icon color
