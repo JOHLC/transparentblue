@@ -7,64 +7,54 @@ transparentblue:
 #################################################################################  
 # Color variables                                                               #
 #################################################################################  
-  prefers-color-scheme: dark                                  #Not sure if this is used anywhere
-  main-color: 'rgba(10,10,75, 0.3)'                           #Main color
-  main-color-not-tp: 'rgba(7,7,50, 1)'                        #Main color without transparency
-  dark-blue: 'rgba(3,3,30, 0.90)'                             #Dark blue for backgrounds of certain elements
-  dark-color: 'rgba(3,3,30, 1)'                               #test
-  active-color: 'yellow'                                      #Color of active/on entities in cards
-  text-color: 'white'                                         #Duh
+  prefers-color-scheme: 'dark'                                   #Not sure if this is used anywhere
+  main-color: 'rgba(10,10,75, 0.3)'                              #Main color
+  main-color-2: 'rgba(3,3,50, 0.5)'  
+  main-color-not-tp2: 'rgba(3,3,75, 1)'                          #Main color without transparency
+  main-color-not-tp: 'rgba(3,3,50, 1)'                           #Main color without transparency
+  dark-blue: 'rgba(3,3,30, 0.90)'                                #Dark blue for backgrounds of certain elements
+  dark-color: 'rgba(3,3,30, 1)'                                  #test
+  active-color: 'yellow'                                         #Color of active/on entities in cards
+  text-color: 'white'                                            #Duh
   slightly-darker-text: 'rgb(200 200 200)'
   text-dark-color: '#A0A0A0'                                  
-  accent-color: '#ffd000'                                     #Bright yellow instead of orange - leaving this empty looks fine as well (off-orange color)
+  accent-color: '#ffd000'                                        #Bright yellow instead of orange - leaving this empty looks fine as well (off-orange color)
   accent-medium-color: '#FFFFFF'
   background-card-color: 'var(--main-color)'
   border-color: 'transparent'
   #icon-color: 'rgb(254 254 254)'
   icon-color: 'var(--text-color)'
-  state-icon-color: '#00aeff'                                 #Icon color at least on Entity (not entities) cards 
+  state-icon-color: '#00aeff'                                    #Icon color at least on Entity (not entities) cards 
+
 #################################################################################
 # Coloring                                                                      #
 #################################################################################
-
-  #Developer tools 
-  code-editor-background-color: 'rgba(25,25,25, 1)'              #Background color of developer tools code backdrops
-  table-row-alternative-background-color: 'var(--dark-blue)'     #Used in at least Developer tools for alternating entites background color
-  table-row-background-color: 'rgba(25,25,25, 1)'                #Used in at least Developer tools for alternating entites background color
-  paper-dialog-background-color: 'var(--dark-blue)'              #Line numbers next to code backdrops at least
-  
-  #Header
-  app-header-background-color: 'var(--main-color-not-tp)'        #Lovelace headers
-  app-header-edit-background-color: 'var(--dark-blue)'           #Edit mode header
-  
-  #Text
-  primary-color: ''                                              #Do not set, this ensures colors are readable in places like logbook, dev tools, hyperlinks, selected header text, + Add integration, on state switches, selected checkbox background, pretty much anywhere you see the signature Home Assistant blue. Might be able to find A color that would work. 
-  text-primary-color: 'var(--text-color)'                        #Primary text color
-  primary-text-color: 'var(--text-color)'                        #Primary card text color and other places
-  ha-card-header-font-size: '18px'                               #Size
-  app-header-text-color: 'var(--text-color)'                     #App header text color
-  ha-card-header-color: ''                                       #Lovelace card header text color
-  
-  
-  #Left flyout menu                                              #I suggest you set the "Always hide the sidebar" option to ON
-  #app-drawer-width: '0px'
-  paper-listbox-background-color: 'var(--dark-blue)'
-  sidebar-icon-color: 'var(--icon-color)'                        #Side menu icon color
-  sidebar-selected-icon-color: 'white'                           #Currently selected sidebar item icon color
-  sidebar-selected-text-color: 'var(--text-color)'               #Currently selected sidebar item text color
-  sidebar-background-color: 'var(--dark-color)'                  #Background color of side menu, also used as a header color in HACS
-  #app-drawer-scrim-background: 'rgba(0, 0, 0, .75)'             #The shade color to the right of the flyout menu (dims the background) - does not seem to work because style is html hard coded
-  
-  #Notifications area
-  
   #UI / globals
-  paper-card-header-color: ''                                    #Not sure what this is just yet
-  primary-background-color: 'var(--dark-color)'                  #Background color in several locations (Supervisor, app drawer, dev tools, configuration, logbook, history, media browser, notifications, app config)
+  primary-background-color: 'var(--main-color-not-tp)'           #WARNING - making this transparent cuases flashing / wrong color issue in some pages (HACS, Supervisor) - Background color in several locations (Supervisor, app drawer, dev tools, configuration, logbook, history, media browser, notifications, app config)
   mdc-theme-primary: '#FCFCFC'                                   #Color for buttons, yaml config reloading, update, alarm control buttons, etc, 
   ha-card-background: 'var(--main-color)'                        #Most lovelace card background colors
   card-background-color: 'var(--main-color-not-tp)'              #Card backgrounds and element backgrounds in other config pages as well as the History datetime picker
   mdc-theme-on-primary: 'var(--dark-blue)'                       #Text in buttons like restart, call service, etc
   material-background-color: 'var(--dark-blue)'                  #Background for at least service/entity selection in automations, im sure its used elsewhere...
+  
+  #Text
+  primary-color: ''                                              #Do not set, this ensures colors are readable in places like logbook, dev tools, hyperlinks, selected header text, + Add integration, on state switches, selected checkbox background, pretty much anywhere you see the signature Home Assistant blue. Might be able to find A color that would work. 
+  #primary-color: '#03a9f4' 
+  text-primary-color: ''                                         #Primary text color
+  primary-text-color: 'var(--text-color)'                        #Primary card text color and other places
+  ha-card-header-font-size: '18px'                               #Size
+  app-header-text-color: 'var(--text-color)'                     #App header text color
+  ha-card-header-color: ''                                       #Lovelace card header text color
+  mdc-theme-on-secondary: 'black'
+    
+  #Icons
+  paper-item-icon-color: 'var(--icon-color)'                     #Icon color defined above
+  paper-item-icon-active-color: ''                               #Active icon color - not used right now
+  
+  #Header
+  app-header-background-color: 'var(--main-color-not-tp)'        #Lovelace headers
+  app-header-edit-background-color: 'var(--primary-color)'       #Edit mode header
+  app-header-edit-text-color: 'black'
   
   #Cards
   paper-card-background-color: ''                                #Card Background
@@ -76,18 +66,29 @@ transparentblue:
   paper-dialog-button-color: 'var(--text-color)'                 #Not sure just yet
   secondary-background-color: 'var(--dark-blue)'                 #Background more info title
   ha-card-border-radius: '6px'                                   #Card border rounding
+  ha-picture-card-background-color: 'var(--main-color)'          #Picture card titles background
+  paper-card-header-color: ''                                    #Not sure what this is just yet
   
-  #Icons
-  paper-item-icon-color: 'var(--icon-color)'                     #Icon color defined above
-  paper-item-icon-active-color: ''                               #Active icon color - not used right now
+  #Developer tools 
+  code-editor-background-color: 'rgba(25,25,25, 1)'              #Background color of developer tools code backdrops
+  table-row-alternative-background-color: 'var(--dark-blue)'     #Used in at least Developer tools for alternating entites background color
+  table-row-background-color: 'rgba(25,25,25, 1)'                #Used in at least Developer tools for alternating entites background color
 
+  #Left flyout menu                                              #I suggest you set the "Always hide the sidebar" option to ON
+  #paper-listbox-background-color: 'var(--dark-blue)'
+  sidebar-icon-color: 'var(--icon-color)'                        #Side menu icon color
+  #sidebar-selected-icon-color: ''                               #Currently selected sidebar item icon color
+  sidebar-selected-text-color: 'var(--text-color)'               #Currently selected sidebar item text color
+  sidebar-background-color: 'var(--main-color-2)'                #Background color of side menu, also used as a header color in HACS
+  app-drawer-scrim-background: 'rgba(0, 0, 0, .75)'              #The shade color to the right of the flyout menu (dims the background)
+  
   #Switches
   switch-checked-button-color: ''                                #Switch On
   switch-unchecked-button-color: 'var(--slightly-darker-text)'   #Switch Off
   switch-checked-track-color: '#009FFF'                          #Switch background when On
   switch-unchecked-track-color: '#767682'                        #Switch background when Off
 
-  #Slider
+  #Sliders
   paper-slider-active-color: 'dodgerblue'                        #Line On
   paper-slider-knob-color: 'var(--text-color)'                   #Knob On
   paper-slider-container-color: 'var(--text-color)'              #Line Off
@@ -97,8 +98,8 @@ transparentblue:
   
   #Badges
   label-badge-text-color: 'var(--text-color)'                    #Badge text color
-  label-badge-background-color: 'rgba(7,7,75, 0.25)'             #Badge background color
-  ha-label-badge-color: 'var(--main-color)'                      #Not exactly sure
+  label-badge-background-color: 'var(--main-color)'              #Badge background color
+  ha-label-badge-color: ''                                       #Badge circle outline color at least and badge color for supervisor addons (app armor badge, etc)
   label-badge-red: 'rgba(227, 25, 25, .75)'                      #Sensor badges and alarm armed color
   label-badge-blue: 'rgba(3,155,229, .75'                        #Binary sensor badges
   
@@ -106,21 +107,28 @@ transparentblue:
   mdc-button-outline-color: 'var(--text-color)'                  #Button outline - at least used in alarm control panel
   
   # Shadows
-  ha-card-box-shadow: ''                                         #Card box shadows - default ones look really nice
+  ha-card-box-shadow: '2px 2px 10px 2px rgba(3,3,30, 0.75)'      #Card box shadows - default ones look really nice
 
   # HACS
-
   hacs-badge-color: 'var(--primary-color)'                       #New badge
   hacs-status-installed: 'var(--text-color)'                     #Installed icon
   hacs-status-pending-restart: 'var(--text-dark-color)'          #Restart icon
   hacs-status-pending-update: 'var(--primary-color)'             #Update icon
-  #mdc-dialog-scrim-color: 'rgba(0, 0, 0, 0.75)'                 #Used at least as the scrim for HACS component "information" popup - hard coded html style
+  hacs-chip-color: 'var(--accent-color)'
   hcv-color-chip: 'var(--accent-color)'                          #HACS repo popup bage color
+  hcv-text-color-chip: 'var(--dark-color)'
+  hacs-chip-text-color: 'var(--dark-color)'
+  mdc-dialog-scrim-color: 'rgba(0, 0, 0, 0.75)'
+  hcv-text-color-on-background: '#000000'
+  
+  #Card editor
+  mdc-dialog-min-width: '80%'                                    #Min width of the card editor ui
+  mdc-dialog-max-width: '95%'                                    #Max width of the card editor ui
+  dialog-backdrop-filter: 'blur(2px)'                            #Add a nice blur to the background
   
   #Others
   mdc-theme-surface: 'var(--dark-blue)'                          #Not sure
   ha-bar-background-color: 'var(--main-color-not-tp)'            #Used at least in System tab for the background color of CPU use, used space, etc. 
-#  mdc-theme-secondary: '#018786'                                #Not sure
 
 #################################################################################
 # Background image  #Base64 encoded       
