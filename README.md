@@ -9,14 +9,18 @@ It can be installed via HACS or manually with help from the instructions below.
 
 ### Screenshots
 **Main**<br />
-<img src="https://raw.githubusercontent.com/JOHLC/transparentblue/main/images/sc1.jpg" alt="Screenshot 1" width="1000">
+<img src="https://raw.githubusercontent.com/JOHLC/transparentblue/main/images/sc3.png" alt="Screenshot 1" width="1000">
 
 **Sidebar**<br />
-<img src="https://raw.githubusercontent.com/JOHLC/transparentblue/main/images/sidebar1.jpg" alt="Screenshot 1" width="1000">
+<img src="https://raw.githubusercontent.com/JOHLC/transparentblue/main/images/sc2.png" alt="Screenshot 2" width="1000">
+
+**Misc.**<br />
+<img src="https://raw.githubusercontent.com/JOHLC/transparentblue/main/images/sc4.png" alt="Screenshot 3" width="1000">
+<img src="https://raw.githubusercontent.com/JOHLC/transparentblue/main/images/sc5.png" alt="Screenshot 3" width="1000">
 
 <!-- replace screenshot --> 
-**Included BG image**<br />
-<img src="https://github.com/JOHLC/transparentblue/blob/main/images/background.jpg?raw=true" alt="Screenshot 1" width="800">
+[Included background image](https://github.com/JOHLC/transparentblue/blob/main/images/background.jpg)<br />
+
 
 ## HACS installation - recommended<br /> 
 Transparent Blue is now a default repo in HACS! 
