@@ -55,13 +55,14 @@ transparentblue:
   text-primary-color: ''                                           #Primary text color
   text-accent-color: 'var(--text-color)'                           #Text color sometimes used while on top of an element with the accent color background color
   primary-text-color: 'var(--text-color)'                          #Primary card text color and other places
-  ha-card-header-font-size: '18px'                                 #Size
-  app-header-text-color: 'var(--text-color)'                       #App header text color
+  ha-card-header-font-size: '16px'                                 #Size
+  app-header-text-color: 'white'                                   #App header text color
   ha-card-header-color: ''                                         #Lovelace card header text color
   mdc-theme-on-secondary: 'black'                                  #Used sometimes when there is an item or text on top of an element that is colored with accent-color 
   disabled-text-color: 'var(--text-dark-color)'                    #Disabled text
   mdc-theme-primary: 'var(--text-color)'                           #Color for text on buttons, yaml config reloading, update, alarm control buttons, etc
-  
+  ha-label-badge-label-color: 'black'
+  dark-primary-opacity: '1'
   #Icons and boxes
   paper-item-icon-color: 'var(--icon-color)'                       #Icon color defined above
   #paper-item-icon-active-color: ''                                #Active icon color - not used right now
@@ -79,7 +80,7 @@ transparentblue:
   card-background-color: 'var(--main-color-less-tp)'               #Background elsewhere (Blueprints, automations, scenes, scripts, entities, etc)
   paper-listbox-background-color: 'var(--main-color-2)'            #Used at least in integrations page where an integration has multiple devices in a list 
   mdc-theme-surface: 'var(--main-color-2-tp)'                      #More info popup card background at least
-  
+  round-slider-path-color: 'var(--main-color-less-tp)'             # Used at least as the track color for thermostat cards
   
   #Datatable
   data-table-background-color: 'var(--main-color-tp)'
@@ -121,7 +122,7 @@ transparentblue:
   
   #Switches
   switch-checked-button-color: ''                                  #Switch On
-  switch-unchecked-button-color: 'var(--slightly-darker-text)'     #Switch Off
+  switch-unchecked-button-color: 'var(--icon-color)'     #Switch Off
   #switch-checked-track-color: '#009FFF'                           #Switch background when On
   switch-unchecked-track-color: 'var(--main-color-tp)'             #Switch background when Off / unchecked
   
@@ -170,6 +171,24 @@ transparentblue:
   #Others
   #mdc-theme-surface: 'var(--dark-blue)'                           #Not sure
   ha-bar-background-color: 'var(--main-color)'                     #Used at least in System tab for the background color of CPU use, used space, etc. 
+
+
+#    --brightness-font-size: 1.2rem;
+#    --rail-border-color: transparent;
+#    --auto-color: green;
+#    --eco-color: springgreen;
+#    --cool-color: #2b9af9;
+#    --heat-color: #ff8100;
+#    --manual-color: #44739e;
+#    --off-color: #8a8a8a;
+#    --fan_only-color: #8a8a8a;
+#    --dry-color: #efbd07;
+#    --idle-color: #8a8a8a;
+#    --unknown-color: #bac;
+
+
+
+
 
 #################################################################################
 # Background image  #Base64 encoded       
