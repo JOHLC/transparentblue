@@ -69,6 +69,8 @@ transparentblue:
   paper-listbox-background-color: 'var(--main-color-2)'            #Used at least in integrations page where an integration has multiple devices in a list 
   mdc-theme-surface: 'var(--main-color-2-tp)'                      #More info popup card background at least
   round-slider-path-color: 'var(--main-color-less-tp)'             #Used at least as the track color for thermostat cards
+  mini-media-player-button-color: 'var(--main-color-tp)'           #Custom card
+  mini-media-player-overlay-color: 'var(--main-color-tp)'          #Custom card
   
   #Datatable
   data-table-background-color: 'var(--main-color-tp)'
