@@ -46,7 +46,8 @@ transparentblue:
   mdc-theme-primary: 'var(--text-color)'                           #Color for text on buttons, yaml config reloading, update, alarm control buttons, etc
   ha-label-badge-label-color: 'black'
   dark-primary-opacity: '1'
-  
+  mdc-select-label-ink-color: 'var(--text-color)'                              #Used for text in select boxes? 
+  mdc-select-ink-color: 'var(--text-color)'    
   #Icons
   icon-color: 'var(--text-color)'
   state-icon-color: 'var(--icon-color)'                            #Icon color at least on Entity (not entities) cards 
@@ -71,6 +72,7 @@ transparentblue:
   round-slider-path-color: 'var(--main-color-less-tp)'             #Used at least as the track color for thermostat cards
   mini-media-player-button-color: 'var(--main-color-tp)'           #Custom card
   mini-media-player-overlay-color: 'var(--main-color-tp)'          #Custom card
+  entities-divider-color: 'var(--accent-color)'                    #Divider color on entities card
   
   #Datatable
   data-table-background-color: 'var(--main-color-tp)'
@@ -140,8 +142,13 @@ transparentblue:
   dialog-backdrop-filter: 'blur(2.5px)'                            #Add a nice blur to the background of popup entities
   
   #Others
+  mdc-select-fill-color: 'var(--accent-color)'
   ha-bar-background-color: 'var(--main-color)'                     #Used at least in System tab for the background color of CPU use, used space, etc. 
-
+  restriction-regular-lock-color: 'var(--accent-color)'
+  restriction-success-lock-color: 'transparent'
+  restriction-lock-icon-size: '20px'
+  mmp-artwork-opacity: '0'
+  mini-media-player-background-opacity: '0'
 #################################################################################
 # Background image  #Base64 encoded       
 #################################################################################
