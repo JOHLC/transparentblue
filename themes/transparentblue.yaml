@@ -152,10 +152,10 @@ transparentblue:
   restriction-lock-icon-size: '20px'
   mmp-artwork-opacity: '0'
   mini-media-player-background-opacity: '0'
-  mdc-text-field-fill-color: 'var(--main-color-less-tp)'
+  mdc-text-field-fill-color: 'var(--main-color-tp)'
   input-fill-color: 'var(--main-color-less-tp)'
-  mdc-text-field-disabled-fill-color: 'var(--main-color-less-tp)'
-  mdc-select-disabled-fill-color: 'var(--main-color-less-tp)'
+  mdc-text-field-disabled-fill-color: 'var(--main-color-tp)'
+  mdc-select-disabled-fill-color: 'var(--main-color-tp)'
   paper-slider-height: '5px'
   input-disabled-ink-color: 'rgb(255 255 255 / 37%)'
   
