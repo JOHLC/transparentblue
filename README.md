@@ -29,7 +29,7 @@ Transparent Blue is now a default repo in HACS!
 2. Select "Frontend"
 3. Click add (+)
 4. Search for Transparent Blue and click it
-5. Click Install 
+5. Click Download 
 You should now be able to select this theme in Home Assistant
 
 ### Manual Installation - not recommended<br /> 
