@@ -66,3 +66,8 @@ From time to time I will be releasing beta versions. This is mainly for personal
 
 <img src="https://github.com/JOHLC/transparentblue/blob/main/images/hacsbeta.png?raw=true" alt="hacs beta" >
 <br />
+
+## Other cool themes
+- https://github.com/3ative/3ative-blue-theme
+- https://github.com/naofireblade/clear-theme-dark
+<br />
