@@ -75,6 +75,7 @@ transparentblue:
   mini-media-player-button-color: 'var(--main-color-tp)'           #Custom card
   mini-media-player-overlay-color: 'var(--main-color-tp)'          #Custom card
   entities-divider-color: 'var(--accent-color)'                    #Divider color on entities card
+  ha-card-border-color: 'transparent'                              #Fix new border after HA 2022.11
   
   #Datatable
   data-table-background-color: 'var(--main-color-tp)'
