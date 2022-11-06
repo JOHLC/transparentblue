@@ -53,7 +53,7 @@ transparentblue:
   icon-color: 'var(--text-color)'
   state-icon-color: 'var(--icon-color)'                            #Icon color at least on Entity (not entities) cards 
   paper-item-icon-color: 'var(--icon-color)'                       #Icon color defined above
-  #paper-item-icon-active-color: ''                                #Active icon color - not used right now
+  paper-item-icon-active-color: 'rgb(128,247,112)'                                #Active icon color - not used right now
   mdc-text-field-ink-color: 'var(--text-color)'                    #Text inside of selected text boxes / inputs 
   mdc-text-field-label-ink-color: "var(--text-color)"
   #Checkboxes
