@@ -32,6 +32,7 @@ transparentblue:
   material-primary-color: 'red'
   accent-color: 'var(--primary-color)'
   border-color: 'transparent'
+  input-dropdown-icon-color: 'var(--primary-color)'                #Fix the dropdown and X selector when in UI for adding entities to a card, etc. 
   #error-color: '#db4437'                                          #Error color | Stock: #db4437, #b00020
   
   #Text
@@ -53,7 +54,7 @@ transparentblue:
   icon-color: 'var(--text-color)'
   state-icon-color: 'var(--icon-color)'                            #Icon color at least on Entity (not entities) cards 
   paper-item-icon-color: 'var(--icon-color)'                       #Icon color defined above
-  paper-item-icon-active-color: 'rgb(128,247,112)'                                #Active icon color - not used right now
+  #paper-item-icon-active-color: 'rgb(128,247,112)'                #Active icon color - not used right now
   mdc-text-field-ink-color: 'var(--text-color)'                    #Text inside of selected text boxes / inputs 
   mdc-text-field-label-ink-color: "var(--text-color)"
   #Checkboxes
