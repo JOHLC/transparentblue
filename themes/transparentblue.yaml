@@ -34,7 +34,7 @@ transparentblue:
   border-color: 'transparent'
   input-dropdown-icon-color: 'var(--primary-color)'                #Fix the dropdown and X selector when in UI for adding entities to a card, etc. 
   mdc-radio-unchecked-color: 'rgb(255,255,255,0.5'                 #Radio unselected color  
-  error-color: "var(--primary-color)" #Error color | Stock: #db4437, #b00020
+  #error-color: "var(--primary-color)" #Error color | Stock: #db4437, #b00020
   
   #Text
   primary-color: ''                                                #Do not set, this ensures colors are readable in places like logbook, dev tools, hyperlinks, selected header text, + Add integration, on state switches, selected checkbox background, pretty much anywhere you see the signature Home Assistant blue. Might be able to find A color that would work. 
