@@ -155,7 +155,7 @@ transparentblue:
   restriction-lock-icon-size: '20px'
   mmp-artwork-opacity: '0'
   mini-media-player-background-opacity: '0'
-  mdc-text-field-fill-color: 'var(--main-color-tp)'
+  mdc-text-field-fill-color: 'transparent'
   input-fill-color: 'var(--main-color-less-tp)'
   mdc-text-field-disabled-fill-color: 'var(--main-color-tp)'
   mdc-select-disabled-fill-color: 'var(--main-color-tp)'
