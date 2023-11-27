@@ -9,6 +9,7 @@ transparentblue:
   #prefers-color-scheme: 'dark'                                    #Not sure if this is used anywhere, doesnt seem like it
   main-color: 'rgba(14,14,112, 1)'                                 #Main color
   main-color-tp: 'rgba(14,14,112, .2)'                             #Main color
+  main-color-tp-less: 'rgba(3,3,30, .35)'                             #Main color
   main-color-very-tp: 'rgba(14,14,112, .05)'                       #Main color
   main-color-less-tp: 'rgba(14,14,112, 0.75)'                      #Main color
   main-color-2: 'rgba(3,3,50, 1)'
@@ -72,7 +73,8 @@ transparentblue:
   background-card-color: 'red'                                   
   card-background-color: 'var(--main-color-4-less-tp)'             #Background elsewhere (Blueprints, automations, scenes, scripts, entities, ?date / time picker? etc)
   paper-listbox-background-color: 'var(--main-color-2)'            #Used at least in integrations page where an integration has multiple devices in a list 
-  mdc-theme-surface: 'var(--main-color-2)'     #re-add -tp                 #More info popup card background at least, also dropdown background color
+  mdc-theme-surface: 'var(--main-color-less-tp)'     #re-add -tp                 #More info popup card background at least, also dropdown background color
+  #mdc-theme-surface: 'var(--main-color-2)'
   round-slider-path-color: 'var(--main-color-less-tp)'             #Used at least as the track color for thermostat cards
   mini-media-player-button-color: 'var(--main-color-tp)'           #Custom card
   mini-media-player-overlay-color: 'var(--main-color-tp)'          #Custom card
@@ -106,7 +108,7 @@ transparentblue:
   sidebar-icon-color: 'var(--icon-color)'                          #Side menu icon color
   #sidebar-selected-icon-color: ''                                 #Currently selected sidebar item icon color
   sidebar-selected-text-color: 'var(--text-color)'                 #Currently selected sidebar item text color
-  sidebar-background-color: 'var(--main-color-2)'                  #Background color of side menu, also used as a header color in HACS
+  sidebar-background-color: 'var(--main-color-less-tp)'                  #Background color of side menu, also used as a header color in HACS
   app-drawer-scrim-background: 'rgba(0, 0, 0, .75)'                #The shade color to the right of the flyout menu (dims the background)
   
   #Switches
@@ -155,6 +157,7 @@ transparentblue:
   restriction-lock-icon-size: '20px'
   mmp-artwork-opacity: '0'
   mini-media-player-background-opacity: '0'
+  #mdc-text-field-fill-color: 'var(--main-color-tp)'
   mdc-text-field-fill-color: 'transparent'
   input-fill-color: 'var(--main-color-less-tp)'
   mdc-text-field-disabled-fill-color: 'var(--main-color-tp)'
