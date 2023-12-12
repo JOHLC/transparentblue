@@ -1,10 +1,5 @@
 # Transparent Blue Theme for Home Assistant
-
-[![HACS Default](https://img.shields.io/badge/HACS-Default-orange.svg)](https://github.com/custom-components/hacs)
-![GitHub Release Date](https://img.shields.io/github/release-date/johlc/transparentblue)
-![GitHub release (latest by date)](https://img.shields.io/github/v/release/johlc/transparentblue?label=Version&style=flat-square&labelColor=2ea9f4&color=1473ae)
-![GitHub All Releases](https://img.shields.io/github/downloads/johlc/transparentblue/total?&label=Total%20Downloads&style=flat-square&labelColor=2ea9f4&color=1473ae)
-
+[![HACS Default](https://img.shields.io/badge/HACS-Default-orange.svg)](https://github.com/custom-components/hacs)![GitHub Release Date](https://img.shields.io/github/release-date/johlc/transparentblue)![GitHub release (latest by date)](https://img.shields.io/github/v/release/johlc/transparentblue?label=Version&style=flat-square&labelColor=2ea9f4&color=1473ae)![GitHub All Releases](https://img.shields.io/github/downloads/johlc/transparentblue/total?&label=Total%20Downloads&style=flat-square&labelColor=2ea9f4&color=1473ae)
 ## Overview
 Transparent Blue is a theme designed for Home Assistant, offering a sleek and transparent blue aesthetic. It's my first custom theme for Home Assistant and my first ever GitHub/HACS repository.
 
