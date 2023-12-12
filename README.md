@@ -1,22 +1,27 @@
-# Transparent Blue
-[![hacs_badge](https://img.shields.io/badge/HACS-Default-orange.svg)](https://github.com/custom-components/hacs) <img alt="GitHub Release Date" src="https://img.shields.io/github/release-date/johlc/transparentblue"> ![GitHub release (latest by date)](https://img.shields.io/github/v/release/johlc/transparentblue?label=Version&style=flat-square&labelColor=2ea9f4&color=1473ae) ![GitHub All Releases](https://img.shields.io/github/downloads/johlc/transparentblue/total?&label=Total%20Downloads&style=flat-square&labelColor=2ea9f4&color=1473ae) 
+# Transparent Blue Theme for Home Assistant
 
-## A transparent blue theme for Home Assistant 
-This is a theme I created for Home Assistant called Transparent Blue. This is/was my first ever custom theme for Home Assistant and my first ever GitHub/HACS repository.<br />
-It can be installed via HACS or manually with help from the [instructions below.](#hacs-installation---recommended)
+[![HACS Default](https://img.shields.io/badge/HACS-Default-orange.svg)](https://github.com/custom-components/hacs)
+![GitHub Release Date](https://img.shields.io/github/release-date/johlc/transparentblue)
+![GitHub release (latest by date)](https://img.shields.io/github/v/release/johlc/transparentblue?label=Version&style=flat-square&labelColor=2ea9f4&color=1473ae)
+![GitHub All Releases](https://img.shields.io/github/downloads/johlc/transparentblue/total?&label=Total%20Downloads&style=flat-square&labelColor=2ea9f4&color=1473ae)
 
-Please report any issues you may discover under the [issues](https://github.com/JOHLC/transparentblue/issues) section  
-Please provide any feedback over at the [Home Assistant Community  post](https://community.home-assistant.io/t/transparent-blue-custom-theme/)
+## Overview
+Transparent Blue is a theme designed for Home Assistant, offering a sleek and transparent blue aesthetic. It's my first custom theme for Home Assistant and my first ever GitHub/HACS repository.
+
+Please report any issues through the [issues section](https://github.com/JOHLC/transparentblue/issues) and provide feedback or ask questions on the [Home Assistant Community post](https://community.home-assistant.io/t/transparent-blue-custom-theme/).
 
 ## Screenshots
 **Main**<br />
-<img src="https://raw.githubusercontent.com/JOHLC/transparentblue/main/images/x202204.1-1.png" alt="Screenshot 1" width="1000">
+<img src="https://raw.githubusercontent.com/JOHLC/transparentblue/main/images/v2023.12.1-1.png" alt="Screenshot 1" width="1000">
+
+**More info**<br />
+<img src="https://raw.githubusercontent.com/JOHLC/transparentblue/main/images/v2023.12.1-4.png" alt="Screenshot 1" width="750">
 
 **Sidebar**<br />
-<img src="https://raw.githubusercontent.com/JOHLC/transparentblue/main/images/x202204.1-2.png" alt="Screenshot 2" width="1000">
+<img src="https://raw.githubusercontent.com/JOHLC/transparentblue/main/images/v2023.12.1-2.png" alt="v2023.12.1-2.png" width="1000">
 
 **Menu**<br />
-<img src="https://raw.githubusercontent.com/JOHLC/transparentblue/main/images/x202204.1-3.png" alt="Screenshot 3" width="1000">
+<img src="https://raw.githubusercontent.com/JOHLC/transparentblue/main/images/v2023.12.1-3.png" alt="Screenshot 3" width="750">
 
 <!-- replace screenshot --> 
 
@@ -62,8 +67,8 @@ lovelace-background: 'center / cover no-repeat fixed url("/local/background.png"
 ````
 
 ## Beta versions
-From time to time I will be releasing beta versions. This is mainly for personal testing before merging dev branch changes. If you are using HACS you can enable / disable these beta versions by changing the setting "Show beta versions"<br /> 
-
+Beta versions may be released for personal testing. If you're using HACS, you can enable/disable beta versions by changing the "Show beta versions" setting.
+<br /> 
 <img src="https://github.com/JOHLC/transparentblue/blob/main/images/hacsbeta.png?raw=true" alt="hacs beta" >
 <br />
 
