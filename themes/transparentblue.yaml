@@ -108,7 +108,8 @@ transparentblue:
   sidebar-icon-color: 'var(--icon-color)'                          #Side menu icon color
   #sidebar-selected-icon-color: ''                                 #Currently selected sidebar item icon color
   sidebar-selected-text-color: 'var(--text-color)'                 #Currently selected sidebar item text color
-  sidebar-background-color: 'var(--main-color-less-tp)'                  #Background color of side menu, also used as a header color in HACS
+  sidebar-background-color: transparent                            #Background color of side menu, also used as a header color in HACS
+  sidebar-menu-button-background-color: transparent                #Background color of side menu title
   app-drawer-scrim-background: 'rgba(0, 0, 0, .75)'                #The shade color to the right of the flyout menu (dims the background)
   
   #Switches
