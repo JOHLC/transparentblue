@@ -1,73 +1,101 @@
 # Transparent Blue Theme for Home Assistant
-[![HACS Default](https://img.shields.io/badge/HACS-Default-orange.svg)](https://github.com/custom-components/hacs)![GitHub Release Date](https://img.shields.io/github/release-date/johlc/transparentblue)![GitHub release (latest by date)](https://img.shields.io/github/v/release/johlc/transparentblue?label=Version&style=flat-square&labelColor=2ea9f4&color=1473ae)
-## Overview
-Transparent Blue is a theme designed for Home Assistant, offering a sleek and transparent blue aesthetic. It's my first custom theme for Home Assistant and my first ever GitHub/HACS repository.
 
-Please report any issues through the [issues section](https://github.com/JOHLC/transparentblue/issues) and provide feedback or ask questions on the [Home Assistant Community post](https://community.home-assistant.io/t/transparent-blue-custom-theme/).
+[![HACS Default](https://img.shields.io/badge/HACS-Default-blue.svg)](https://github.com/custom-components/hacs)
+![GitHub Downloads](https://img.shields.io/github/downloads/JOHLC/transparentblue/total)
+![Maintenance](https://img.shields.io/maintenance/yes/2026)
+![GitHub Release Date](https://img.shields.io/github/release-date/JOHLC/transparentblue)
+![GitHub Release](https://img.shields.io/github/v/release/JOHLC/transparentblue)
+![GitHub Stars](https://img.shields.io/github/stars/JOHLC/transparentblue?style=social)
+
+---
+
+## Overview
+
+**Transparent Blue** is a sleek, modern theme for Home Assistant featuring a transparent blue aesthetic.  
+It’s my first custom theme for Home Assistant and my first ever GitHub/HACS repository.
+
+- **Report issues:** [GitHub Issues](https://github.com/JOHLC/transparentblue/issues)
+- **Community & feedback:** [HA Community Thread](https://community.home-assistant.io/t/transparent-blue-custom-theme/)
+
+---
 
 ## Screenshots
-**Main**<br />
-<img src="https://raw.githubusercontent.com/JOHLC/transparentblue/main/images/v2023.12.1-1.png" alt="Screenshot 1" width="1000">
 
-**More info**<br />
-<img src="https://raw.githubusercontent.com/JOHLC/transparentblue/main/images/v2023.12.1-4.png" alt="Screenshot 1" width="750">
+| Main | More Info |
+|------|-----------|
+| <img src="https://raw.githubusercontent.com/JOHLC/transparentblue/main/images/v2023.12.1-1.png" alt="Main Screenshot" width="400"> | <img src="https://raw.githubusercontent.com/JOHLC/transparentblue/main/images/v2023.12.1-4.png" alt="More Info Screenshot" width="300"> |
 
-**Sidebar**<br />
-<img src="https://raw.githubusercontent.com/JOHLC/transparentblue/main/images/v2023.12.1-2.png" alt="v2023.12.1-2.png" width="1000">
+| Sidebar | Menu |
+|---------|------|
+| <img src="https://raw.githubusercontent.com/JOHLC/transparentblue/main/images/v2023.12.1-2.png" alt="Sidebar Screenshot" width="400"> | <img src="https://raw.githubusercontent.com/JOHLC/transparentblue/main/images/v2023.12.1-3.png" alt="Menu Screenshot" width="300"> |
 
-**Menu**<br />
-<img src="https://raw.githubusercontent.com/JOHLC/transparentblue/main/images/v2023.12.1-3.png" alt="Screenshot 3" width="750">
+[Included background image](https://github.com/JOHLC/transparentblue/blob/main/images/background.jpg)
 
-<!-- replace screenshot --> 
+---
 
-Here is the [Included background image](https://github.com/JOHLC/transparentblue/blob/main/images/background.jpg)<br />
+## Quick Start
 
+> **Recommended:** Install via HACS for easiest setup and updates.
 
-## HACS installation - recommended<br /> 
-Transparent Blue is now a default repo in HACS! 
-1. Open HACS
-2. Select "Frontend"
-3. Click add (+)
-4. Search for Transparent Blue and click it
-5. Click Download 
-You should now be able to select this theme in Home Assistant
+1. Open HACS in Home Assistant
+2. Go to **Frontend**
+3. Click **Add (+)**
+4. Search for **Transparent Blue**
+5. Click **Download**
+6. Select the theme in Home Assistant
 
-### Manual Installation - not recommended<br /> 
-1. Download the transparentblue.yaml file from the latest release
-2. Upload the downloaded file to your "themes" directory
-3. Add the resource reference to your lovelace config
+---
 
-You should now be able to select this theme in Home Assistant
+## Manual Installation (not recommended)
 
+1. Download `transparentblue.yaml` from the [latest release](https://github.com/JOHLC/transparentblue/releases).
+2. Upload to your `themes` directory.
+3. Add the resource reference to your Lovelace config.
+4. Select the theme in Home Assistant.
 
-## Changing the background image<br />
-This theme uses a base64 encoded image. I use [this](https://www.base64-image.de/) website to encode my images. <br /> 
-To change the background of this theme, change the following in the .yaml file:
+---
 
-````
-lovelace-background: 'center / cover no-repeat fixed url()'
-````
+## Customizing the Background
 
-In between the brackets, in the url() section, add your own base64 string:
-````
-# Example
-lovelace-background: 'center / cover no-repeat fixed url('data:image/png;base64,YOURLONGSTRING)'
-````
-Alternatively, you can use a local image stored in your config/www directory or a publicly accessible image url like so
+To change your background, edit this line in your `.yaml`:
 
-````
-lovelace-background: 'center / cover no-repeat fixed url("/local/background.png")' 
-# OR
-# lovelace-background: 'center / cover no-repeat fixed url("http://www.reportingday.com/wp-content/uploads/2018/06/Cat-Sleeping-Pics.jpg")' 
-````
+```
+lovelace-background: 'center / cover no-repeat fixed url("")'
+```
 
-## Beta versions
-Beta versions may be released for personal testing. If you're using HACS, you can enable/disable beta versions by changing the "Show beta versions" setting.
-<br /> 
-<img src="https://github.com/JOHLC/transparentblue/blob/main/images/hacsbeta.png?raw=true" alt="hacs beta" >
-<br />
+**With local or remote image:**
+```
+lovelace-background: 'center / cover no-repeat fixed url("/local/background.png")'
+# or
+lovelace-background: 'center / cover no-repeat fixed url("https://example.com/background.jpg")'
+```
 
-## Other cool themes
-- https://github.com/3ative/3ative-blue-theme
-- https://github.com/naofireblade/clear-theme-dark
-<br />
+**With base64:**
+```
+lovelace-background: 'center / cover no-repeat fixed url("data:image/png;base64,YOURLONGSTRING")'
+```
+---
+
+## Beta Versions
+
+Beta releases may be available for testing.  
+Enable/disable beta versions in HACS via **Show beta versions** setting.
+
+<img src="https://github.com/JOHLC/transparentblue/blob/main/images/hacsbeta.png?raw=true" alt="HACS Beta Setting" width="400">
+
+---
+
+## Compatibility
+
+Tested on Home Assistant 2023.x and newer.
+
+---
+
+## Other Cool Themes
+
+- [3ative Blue Theme](https://github.com/3ative/3ative-blue-theme)
+- [Clear Theme Dark](https://github.com/naofireblade/clear-theme-dark)
+
+---
+
+> _PRs, suggestions, and feedback are always welcome!_
