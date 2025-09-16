@@ -1,9 +1,8 @@
 {
-    "Transparent Blue": {
-      "updated_at": "2022-04-05",
-      "version": "202204.1",
-      "remote_location": "https://github.com/JOHLC/transparentblue",
-      "visit_repo": "https://github.com/JOHLC/transparentblue",
-     
-    }
+  "Transparent Blue": {
+    "updated_at": "2022-04-05",
+    "version": "202204.1",
+    "remote_location": "https://github.com/JOHLC/transparentblue",
+    "visit_repo": "https://github.com/JOHLC/transparentblue"
+  }
 }

@@ -1,0 +1,69 @@
+# Temporary files
+*.tmp
+*.temp
+*~
+*.swp
+*.swo
+
+# OS generated files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+Desktop.ini
+
+# IDE/Editor files
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+.atom/
+.brackets.json
+
+# Node modules (if any)
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Python files (if any)
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+env/
+venv/
+.venv/
+.env
+
+# Backup files
+*.bak
+*.backup
+*.orig
+*.rej
+
+# Log files
+*.log
+logs/
+
+# Test files
+test/
+tests/
+.coverage
+.nyc_output
+coverage/
+
+# Build artifacts
+dist/
+build/
+out/
+
+# Package files
+*.zip
+*.tar.gz
+*.rar
+*.7z
