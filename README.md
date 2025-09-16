@@ -37,6 +37,7 @@ It’s my first custom theme for Home Assistant and my first ever GitHub/HACS re
 
 > **Recommended:** Install via HACS for easiest setup and updates.
 
+[![Open your Home Assistant instance and open a repository inside the Home Assistant Community Store.](https://my.home-assistant.io/badges/hacs_repository.svg)](https://my.home-assistant.io/redirect/hacs_repository/?owner=JOHLC&repository=transparentblue&category=frontend)
 1. Open HACS in Home Assistant
 2. Go to **Frontend**
 3. Click **Add (+)**
