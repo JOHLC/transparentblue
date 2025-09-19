@@ -92,10 +92,42 @@ Tested on Home Assistant 2023.x and newer.
 
 ---
 
+## Contributing
+
+We welcome contributions to improve the Transparent Blue theme! Please read our [Contributing Guidelines](CONTRIBUTING.md) and [Code of Conduct](CODE_OF_CONDUCT.md) before submitting pull requests.
+
+### How to Contribute
+- Report bugs via [GitHub Issues](https://github.com/JOHLC/transparentblue/issues)
+- Suggest features via [Feature Requests](https://github.com/JOHLC/transparentblue/issues/new/choose)
+- Submit improvements via [Pull Requests](https://github.com/JOHLC/transparentblue/pulls)
+
+---
+
+## Support
+
+- **Issues & Bug Reports**: [GitHub Issues](https://github.com/JOHLC/transparentblue/issues)
+- **Community Discussion**: [Home Assistant Community](https://community.home-assistant.io/t/transparent-blue-custom-theme/)
+- **Documentation**: This README and inline comments in the theme file
+
+---
+
+## License
+
+This theme is released under the [MIT License](LICENSE). Feel free to use, modify, and distribute as per the license terms.
+
+---
+
 ## Other Cool Themes
 
 - [3ative Blue Theme](https://github.com/3ative/3ative-blue-theme)
 - [Clear Theme Dark](https://github.com/naofireblade/clear-theme-dark)
+
+---
+
+## Acknowledgments
+
+- Thanks to the Home Assistant community for feedback and testing
+- Inspired by various blue themes in the Home Assistant ecosystem
 
 ---
 
