@@ -1,38 +1,43 @@
 ---
 name: Bug report
-about: Create a report to help us improve
-title: ''
-labels: ''
+about: Report a bug with the Transparent Blue theme
+title: '[BUG] '
+labels: 'bug'
 assignees: ''
 
 ---
 
-**Describe the bug**
+## Bug Description
 A clear and concise description of what the bug is.
 
-**To Reproduce**
-Steps to reproduce the behavior:
+## Home Assistant Information
+**Home Assistant Version:** [e.g. 2024.1.0]
+**Installation Type:** [e.g. Home Assistant OS, Container, Supervised, Core]
+**Frontend Version:** [e.g. 20240101.0]
+
+## Theme Information
+**Theme Version:** [e.g. latest from HACS or specific release]
+**Installation Method:** [e.g. HACS, Manual]
+
+## Steps to Reproduce
 1. Go to '...'
 2. Click on '....'
 3. Scroll down to '....'
 4. See error
 
-**Expected behavior**
+## Expected Behavior
 A clear and concise description of what you expected to happen.
 
-**Screenshots**
+## Screenshots
 If applicable, add screenshots to help explain your problem.
 
-**Desktop (please complete the following information):**
- - OS: [e.g. iOS]
- - Browser [e.g. chrome, safari]
- - Version [e.g. 22]
+## Browser Information (please complete the following):
+- OS: [e.g. Windows, macOS, Linux, iOS, Android]
+- Browser: [e.g. Chrome, Firefox, Safari, Edge]
+- Version: [e.g. 22]
 
-**Smartphone (please complete the following information):**
- - Device: [e.g. iPhone6]
- - OS: [e.g. iOS8.1]
- - Browser [e.g. stock browser, safari]
- - Version [e.g. 22]
-
-**Additional context**
-Add any other context about the problem here.
+## Additional Context
+Add any other context about the problem here, such as:
+- Any custom cards or components you're using
+- Any other themes you have installed
+- Browser console errors (if any)
