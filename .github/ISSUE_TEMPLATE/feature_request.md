@@ -15,7 +15,7 @@ A clear and concise description of what the problem is. Ex. "I'm always frustrat
 A clear and concise description of what you want to happen.
 
 ## Home Assistant Context
-**Relevant HA Components:** [e.g. specific cards, entities, dashboards affected]
+**Relevant Home Assistant Components:** [e.g. specific cards, entities, dashboards affected]
 **Use Case:** [e.g. mobile view, desktop view, specific dashboard type]
 
 ## Design Considerations
