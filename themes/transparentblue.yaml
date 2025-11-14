@@ -38,7 +38,7 @@ transparentblue:
   mdc-radio-unchecked-color: 'rgb(255,255,255,0.5'  # Radio unselected color
   ha-color-fill-neutral-quiet-resting: 'var(--main-color)'
   ha-color-fill-primary-normal-resting: 'var(--main-color)'
-  ha-color-fill-primary-quiet-resting: 'var(--main-color-2'
+  ha-color-fill-primary-quiet-resting: 'var(--main-color-2)'
   ha-color-on-neutral-quiet: 'var(--text-color)'
   ha-color-text-secondary: 'var(--text-color)'
   #error-color: "var(--primary-color)" #Error color | Stock: #db4437, #b00020
