@@ -42,7 +42,7 @@ transparentblue:
   ha-color-on-neutral-quiet: 'var(--text-color)'
   ha-color-text-secondary: 'var(--text-color)'
   #error-color: "var(--primary-color)" #Error color | Stock: #db4437, #b00020
-  clear-background-color: "var(--accent-color)"  # Used at leasr for the little drag value indicator, e.g. for fan controls.
+  clear-background-color: "var(--accent-color)"  # Used at least for the little drag value indicator, e.g. for fan controls.
   #Text
   primary-color: ''  # Do not set, this ensures colors are readable in places like logbook, dev tools, hyperlinks, selected header text, + Add integration, on state switches, selected checkbox background, pretty much anywhere you see the signature Home Assistant blue. Might be able to find A color that would work.
   text-primary-color: ''  # Primary text color
