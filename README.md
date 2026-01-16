@@ -88,7 +88,7 @@ Enable/disable beta versions in HACS via **Show beta versions** setting.
 
 ## Compatibility
 
-Tested on Home Assistant 2023.x and newer.
+Tested on Home Assistant 2026.x and newer.
 
 ---
 
