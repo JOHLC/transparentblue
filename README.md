@@ -23,11 +23,11 @@ It’s my first custom theme for Home Assistant and my first ever GitHub/HACS re
 
 | Main | More Info |
 |------|-----------|
-| <img src="https://raw.githubusercontent.com/JOHLC/transparentblue/main/images/v2023.12.1-1.png" alt="Main Screenshot" width="400"> | <img src="https://raw.githubusercontent.com/JOHLC/transparentblue/main/images/v2023.12.1-4.png" alt="More Info Screenshot" width="300"> |
+| <img src="https://raw.githubusercontent.com/JOHLC/transparentblue/main/images/2026.01.1-1.png" alt="Main Screenshot" width="400"> | <img src="https://raw.githubusercontent.com/JOHLC/transparentblue/main/images/2026.01.1-3.png" alt="More Info Screenshot" height="300"> |
 
 | Sidebar | Menu |
 |---------|------|
-| <img src="https://raw.githubusercontent.com/JOHLC/transparentblue/main/images/v2023.12.1-2.png" alt="Sidebar Screenshot" width="400"> | <img src="https://raw.githubusercontent.com/JOHLC/transparentblue/main/images/v2023.12.1-3.png" alt="Menu Screenshot" width="300"> |
+| <img src="https://raw.githubusercontent.com/JOHLC/transparentblue/main/images/2026.01.1-2.png" alt="Sidebar Screenshot" width="400"> | <img src="https://raw.githubusercontent.com/JOHLC/transparentblue/main/images/2026.01.1-4.png" alt="Menu Screenshot" width="300"> |
 
 [Included background image](https://github.com/JOHLC/transparentblue/blob/main/images/background.jpg)
 
