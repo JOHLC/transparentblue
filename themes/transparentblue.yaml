@@ -58,6 +58,10 @@ transparentblue:
   dark-primary-opacity: '1'
   mdc-select-label-ink-color: 'var(--text-color)'  # Used for text in select boxes?
   mdc-select-ink-color: 'var(--text-color)'
+  wa-color-text-normal: 'var(--text-color)'
+  ha-color-on-neutral-normal: 'var(--text-color)'
+  wa-color-neutral-fill-normal: 'var(--accent-color)'
+  
   #Icons
   icon-color: 'var(--text-color)'
   state-icon-color: 'var(--icon-color)'  # Icon color at least on Entity (not entities) cards
