@@ -42,6 +42,7 @@ transparentblue:
   ha-color-on-neutral-quiet: 'var(--text-color)'
   ha-color-text-secondary: 'var(--text-color)'
   ha-color-fill-warning-quiet-resting: 'var(--warning-color-1)'
+  ha-color-form-background: 'var(--main-color-tp)'  # Used at least in the background of the form when adding an integration, etc.
 
   #error-color: "var(--primary-color)" #Error color | Stock: #db4437, #b00020
   clear-background-color: "var(--accent-color)"  # Used at least for the little drag value indicator, e.g. for fan controls.
